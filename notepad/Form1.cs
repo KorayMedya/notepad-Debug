@@ -61,5 +61,10 @@ namespace notepad
         {
             richTextBox1.Text = richTextBox1.Text + Clipboard.GetText();
         }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Koray Medya");
+        }
     }
 }
